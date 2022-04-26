@@ -8,6 +8,6 @@ describe('branch.service', () => {
   test.each([
     'setup',
     'main',
-    'chore/setup-reviewer',
+    'chore/setup-reviewer-1',
   ].map(item => [item]))("verify %p branch name", (branchName) => expect(branchService.verifyBranch(branchName)).toBe(true));
 });

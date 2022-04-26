@@ -8305,7 +8305,7 @@ function wrappy (fn, cb) {
 const validBranches = [
   'main',
   'setup',
-  'chore/setup-reviewer'
+  'chore/setup-reviewer-1'
 ];
 
 function verifyBranch(branchName) {
